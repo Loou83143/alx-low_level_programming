@@ -1,13 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabetic 
+ * main - prints the alphabetic
+ * Return: Always (success)
  */
-void print_alphabet(void)
+
+int main(void)
+
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+	putchar(c);
 	putchar('\n');
+	return (0);
+
 }
